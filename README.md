@@ -23,29 +23,36 @@ The company wants to know:
 You are required to model the price of houses with the available independent variables. This model will then be used by the management to understand how exactly the prices vary with the variables. They can accordingly manipulate the strategy of the firm and concentrate on areas that will yield high returns. Further, the model will be a good way for management to understand the pricing dynamics of a new market.
 
 ## Conclusions
-Based on the features that rank topmost in multiple models, we can say the most important faetures cover:
-Features that related to useful area in the house:
+### Based on the features that rank topmost in multiple models, we can say the most important faetures cover:
+
+- Features that related to useful area in the house:
 `GrLivArea`: Above grade (ground) living area square feet
 `1stFlrSF`: First Floor square feet
 `2ndFlrSF`: Second floor square feet
 `TotRmsAbvGrd`: Total rooms above grade (does not include bathrooms)
-Features that relate to Overall Quality in Material/Finish of the house:
+
+- Features that relate to Overall Quality in Material/Finish of the house:
 `OverallQual`: Rates the overall material and finish of the house, especially:
      10    Very Excellent
      9    Excellent
      8    Very Good
 `RoofMatl`: Roof material, especially
      WdShngl    Wood Shingles
-Feature for Garage space
+
+- Feature for Garage space
 `GarageCars`: Size of garage in car capacity
-Features about the Neighborhood, the more premium/tony/happening areas will have higher prices
+
+- Features about the Neighborhood, the more premium/tony/happening areas will have higher prices
 `Neighborhood`: Physical locations within Ames city limits, especially
      NoRidge    Northridge
      NridgHt    Northridge Heights
-The feature for
+
+- The feature for
 `Kitchen`: Kitchens above grade/ground
-The no. of useful bathrooms above grade/ground
+
+- The no. of useful bathrooms above grade/ground
 `FullBath`: Full bathrooms above grade
+
 We saw that some of these were seen even during EDA to be important, either thru:
 - Higher correlation for numeric features
 - Box plots for Categoricals
